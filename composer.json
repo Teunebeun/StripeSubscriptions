@@ -13,7 +13,8 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "stripe/stripe-php": "^7.60"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
@@ -41,7 +42,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "App\\": "app/",
+            "Steppi\\StripeSubscriptions\\": "packages/Steppi/StripeSubscriptions/src"
+
         }
     },
     "minimum-stability": "dev",

@@ -1,0 +1,23 @@
+{
+    "name": "teuns/stripesubscriptions",
+    "authors": [
+        {
+            "name": "Teun Salters",
+            "email": "teunsalters@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "stripe/stripe-php": "^7.60"
+    },
+    "extra":{
+        "laravel": {
+            "providers": [
+                "steppi\\stripesubscriptions\\StripeSubscriptionsServiceProvider"
+            ],
+            "aliases": {
+                "StripeSubscriptions": "steppi\\stripesubscriptions\\Facade\\StripeSubscriptions"
+            }
+        }
+    }
+}
