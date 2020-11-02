@@ -1,5 +1,6 @@
 {
     "name": "teuns/stripesubscriptions",
+    "description": "A simple Stripe library to simplify the payment process and the creation of subscriptions",
     "authors": [
         {
             "name": "Teun Salters",
